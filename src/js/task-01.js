@@ -12,3 +12,11 @@
 
 //Category: Technologies
 //Elements: 5
+
+const itemEl = document.querySelectorAll(`li.item`)
+console.log(`Number of categories:`, itemEl.length);
+itemEl.forEach(function (categories) {
+    console.log(`Category:`, categories.firstElementChild.textContent);
+    console.log(`Elements:`, categories.lastElementChild.children.length);
+    
+});
