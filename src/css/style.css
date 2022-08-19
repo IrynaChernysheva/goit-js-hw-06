@@ -1,0 +1,10 @@
+.gallery {
+    list-style: none;
+    display: grid;    
+}
+
+.image {
+    width: 100%;
+    display: block;
+    height: auto;
+}
